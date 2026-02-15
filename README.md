@@ -63,6 +63,9 @@ Estructurar el contenido de una página web mediante etiquetas HTML.
 
 - Comprueba que tu página está correctamente estructurada con la herramienta: https://validator.w3.org/
 
+### Entrega:
+- Sube el ejercicio a tu repositorio de Github y adjunta la url del repositorio.
+
 ## Lista de Etiquetas
 
 **Estructura Básica y Metadatos**
