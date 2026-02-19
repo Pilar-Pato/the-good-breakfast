@@ -23,6 +23,18 @@ header {
     background-color: hwb(78 6% 21%);
     padding: 5px;
 }
+.navegacion a {
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   list-style: none;
+   margin: 0px;
+    
+}
+.navegacion li {
+    list-style: none;
+}
+
 main {
     section {
        image-rendering: optimizeQuality;
