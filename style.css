@@ -1,0 +1,30 @@
+body {
+    background-color: #e6dfdf;
+    margin: 0px;
+    
+}
+h1 {
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    color: #4e16e9;
+}
+p {
+    font-family: 'Times New Roman', Times, serif;
+    color: #4e16e9;
+    text-align: center ;
+}
+navegation {
+    display: flex;
+    justify-content: center;
+    background-color: hsl(121, 59%, 68%);
+    padding: 10px;
+}
+header {
+    background-color: hwb(78 6% 21%);
+    padding: 5px;
+}
+main {
+    section {
+       image-rendering: optimizeQuality;
+    }
+}
