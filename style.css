@@ -37,9 +37,41 @@ header {
 .titulo {
         text-align: center;
 }
+.footer {
+    background-color:#4e16e9;
+    padding: 5px;
+    text-align: center;
+}
 
 main {
     section {
        image-rendering: optimizeQuality;
     }
 }
+.opening-hours {
+    max-width: 350px;
+    margin: 20px 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.schedule-row {
+    display: flex;
+    justify-content: space-between; /* Esto separa el día a la izquierda y la hora a la derecha */
+    border-bottom: 1px solid #eee;
+    padding: 8px 0;
+}
+
+.opening-hours dt {
+    font-weight: bold;
+    color: #4e16e9;
+}
+
+.closed {
+    color: #d9534f; /* Un color rojo suave para indicar que está cerrado */
+    font-style: italic;
+}
+blockquote {
+    text-align: center;
+    color:#4e16e9;
+} 
+        

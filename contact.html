@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Urban toast</title>
+    <title>Urban Toast</title>
 </head>
 <body>
     <header>
@@ -25,16 +25,17 @@
     </header>
     <main>
         <section>
+            <h2>Reservas Aquí</h2>
             <h1>Contact us</h1>
             <form action="#">
                 <label for="name">Name:</label>
                 <input type="text" id="name" name="name" required>
 
-                <label for="productos">Productos:</label>
-                <select name="productos" id="productos">
-                    <option value="producto1">Producto1</option>
-                    <option value="producto2">Producto2</option>
-                    <option value="producto3">Producto3</option>
+                <label for="meal-type">Tipos de comida:</label>
+                <select name="meal-type" id="meal-type">
+                    <option value="snack">Snack</option>
+                    <option value="breakfast">Breakfast</option>
+                    
                 </select>
                 <label for="comensales">Comensales:</label>
                 <select name="comensales" id="comensales">
@@ -42,20 +43,16 @@
                     <option value="2">2</option>
                     <option value="3">3</option>
                     <option value="4">4</option>
-                    <option value="5">5</option>
+                    
                 </select>
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" required></textarea>
-                <button type="submit">Submit</button>
+                
             </form>
         </section>
 
 
     </main>
     <footer>
-        <a href="contact.html">Contact us</a>
+        <a href="mailto:info@urbantoast.com">Contact us</a>
         <p>From the oven with love</p>
     </footer>
 
