@@ -13,27 +13,34 @@ p {
     color: #4e16e9;
     text-align: center ;
 }
-navegation {
-    display: flex;
-    justify-content: center;
-    background-color: hsl(121, 59%, 68%);
-    padding: 10px;
+.navegacion {
+    display: flex !important;   
+    flex-direction: row;        /* Asegura que sea en fila */
+    justify-content: center;    /* Los centra en la pantalla */
+    gap: 25px;                  /* Espacio entre cada palabra */
+    list-style: none;           /* Quita los puntos negros */
+    padding: 20px;
+    margin: 0;
+    background-color: #9acd32;  
+}
+
+
+.navegacion li {
+    display: inline-block; 
+}
+
+
+.navegacion a {
+    text-decoration: none;      
+    color: blue;                
+    font-weight: bold;
+    font-family: Arial, sans-serif;
 }
 header {
     background-color: hwb(78 6% 21%);
     padding: 5px;
 }
-.navegacion a {
-   display: flex;
-   justify-content: space-around;
-   align-items: center;
-   list-style: none;
-   margin: 0px;
-    
-}
-.navegacion li {
-    list-style: none;
-}
+
 .titulo {
         text-align: center;
 }
@@ -56,7 +63,7 @@ main {
 
 .schedule-row {
     display: flex;
-    justify-content: space-between; /* Esto separa el día a la izquierda y la hora a la derecha */
+    justify-content: space-between; 
     border-bottom: 1px solid #eee;
     padding: 8px 0;
 }
@@ -67,7 +74,7 @@ main {
 }
 
 .closed {
-    color: #d9534f; /* Un color rojo suave para indicar que está cerrado */
+    color: #d9534f; 
     font-style: italic;
 }
 blockquote {
